@@ -39,6 +39,7 @@ while True:
 
 depth = int(input("Please enter recursion depth : "))
 
+
 def branch(t, S_length, depth):
     if depth == 0:
         return

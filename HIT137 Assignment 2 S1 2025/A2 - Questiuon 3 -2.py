@@ -40,7 +40,7 @@ while True:
 depth = int(input("Please enter recursion depth : "))
 
 
-def branch(t, S_length, depth):
+def draw_branch(t, S_length, depth):
     if depth == 0:
         return
     t.pensize(depth)
@@ -55,7 +55,7 @@ def branch(t, S_length, depth):
         t.setheading(heading)
         t.left(angle)
         t.pendown()
-        branch(t, S_length * reduction, depth - 1)
+        draw_branch(t, S_length * reduction, depth - 1)
 
 
 t = trl.Turtle()
@@ -65,7 +65,7 @@ t.left(90)
 t.penup()
 t.goto(0,-300)
 t.pendown()
-branch(t, S_length, depth)
+draw_branch(t, S_length, depth)
 t.pencolor(0.0,1.0,0.0)
 
 trl.done()

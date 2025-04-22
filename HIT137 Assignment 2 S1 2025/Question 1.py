@@ -1,5 +1,5 @@
 """
-Name:Shaobin Chen
+Name: Group 9
 Date started: 17/04
 GitHub URL:https://github.com/MarukiIroha/HIT137-Assignment-2-Group-9/
 """
@@ -105,4 +105,5 @@ def decrypt_text(encrypted_text, n, m):
 def check_decryption(original_text, decrypted_text):
     return original_text == decrypted_text
 
-main()
+if __name__ == "__main__":
+    main()

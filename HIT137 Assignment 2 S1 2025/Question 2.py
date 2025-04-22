@@ -1,5 +1,5 @@
 """
-Name:Shaobin Chen
+Name: Group 9
 Date started: 20/04
 GitHub URL:https://github.com/MarukiIroha/HIT137-Assignment-2-Group-9/
 """

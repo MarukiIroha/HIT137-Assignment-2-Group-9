@@ -35,7 +35,7 @@ def main():
     t.max_depth = depth
 
     t.penup()
-    t.goto(0, -300)  # Match image positioning
+    t.goto(0, -300)  
     t.setheading(90)
     t.pendown()
 
@@ -48,7 +48,7 @@ def draw_branch(t, length, depth, left_angle, right_angle, reduction_factor):
 
     t.pensize(depth)
 
-    if depth == t.max_depth:  # Trunk (first branch)
+    if depth == t.max_depth:  
         t.pencolor(1.0, 0.0, 0.0)  # Red
     else:
         t.pencolor(0.0, 1.0, 0.0)  # Green
